@@ -1,0 +1,79 @@
+/*==================== Content ====================*/
+#content div.wrapper {
+	background : #300002;
+	padding : 50px 0 200px 0;
+}
+#content .wrapper h2.title {
+	-webkit-background-clip : text;
+	-webkit-text-fill-color : transparent;
+	background : -webkit-linear-gradient(#ffde00, #f4a200);
+	background-clip : text;
+	color : transparent;
+	font-family : soviet-program, AppleGothic, sans-serif;
+	margin : 0 auto 20px auto;
+	text-align : center;
+	text-transform : uppercase;
+	width : 600px;
+}
+#content .wrapper p.description {
+	margin : 0 auto 20px auto;
+	text-align : center;
+	width : 600px;
+}
+#content .wrapper form {
+	margin : 0 auto;
+	width : 900px;
+}
+div.wrapper form div.grid {
+	float : left;
+	margin : 0 0 0 20px;
+	width : 440px;
+}
+div.wrapper form div.grid:first-child {
+	margin : 0;
+}
+form .grid p.title {
+	float : left;
+	margin : 0 10px 10px 0;
+	text-align : right;
+	width : 150px;
+}
+div.grid .title span:first-child {
+	color : #ff0000;
+}
+div.grid .title span:nth-child(3) {
+	color : #fed400;
+	font-style : italic;
+}
+form .grid input {
+	border-radius : 8px;
+	float : left;
+	margin : 0 0 20px 0;
+	width : 258px;
+}
+form .grid select {
+	border-radius : 8px;
+	float : left;
+	margin : 0 0 20px 0;
+	width : 280px;
+}
+div.wrapper form p.note {
+	line-height : 32px;
+	margin : 0 0 20px 0;
+	text-align : center;
+}
+div.wrapper form button {
+	background : #f4a200;
+	background : -moz-linear-gradient(top, #ffbe00 0%, #f4a200 100%);
+	background : -webkit-linear-gradient(top, #ffbe00 0%, #f4a200 100%);
+	background : -webkit-gradient(linear, left top, left bottom, from(#ffbe00), to(#f4a200));
+	background : -o-linear-gradient(top, #ffbe00 0%, #f4a200 100%);
+	background : linear-gradient(to bottom, #ffbe00 0%, #f4a200 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbe00', endColorstr='#f4a200', GradientType=0);
+	border-radius : 8px;
+	color : #300002;
+	display : block;
+	font-weight : 600;
+	margin : 0 auto;
+	width : 400px;
+}

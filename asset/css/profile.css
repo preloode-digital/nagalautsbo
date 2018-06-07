@@ -1,0 +1,342 @@
+/*==================== Content ====================*/
+#content {
+	background : #051d18;
+	padding : 0;
+}
+#content .wrapper div.content {
+	background : #043228;
+	border : none;
+	padding : 50px 100px;
+}
+div.wrapper .content ul {
+	background : none;
+	border : none;
+	border-radius : 0;
+	float : left;
+	margin : 0 20px 0 0;
+	padding : 0;
+	width : 200px;
+}
+div.content ul li {
+	background : #c90000 !important;
+    background : -webkit-linear-gradient(#5f0000, #c90000) !important;
+    background : -o-linear-gradient(#5f0000, #c90000) !important;
+    background : -moz-linear-gradient(#5f0000, #c90000) !important;
+    background : linear-gradient(#5f0000, #c90000) !important;
+	border : 1px solid #df0000 !important;
+	border-radius : 0;
+	float : none;
+	margin : 0 0 5px 0 !important;
+	padding : 0 !important;
+}
+div.content ul li:last-child {
+	margin : 0 !important;
+}
+div.content ul li a {
+	color : #fff !important;
+	line-height : 30px;
+	padding : 0 !important;
+	text-align : center;
+	text-transform : uppercase;
+	width : 198px;
+}
+div.content ul li a:hover {
+	background : #5f0000;
+}
+div.content ul li.ui-state-active a {
+	color : #aaa !important;
+	text-decoration : underline !important;
+}
+div.content form div.tab {
+	float : left;
+	padding : 0;
+	width : 780px;
+}
+form .tab p.title {
+	color : #fff;
+	float : left;
+	line-height : 32px;
+	margin : 0 0 10px 0;
+	width : 200px;
+}
+form .tab input,
+form .tab select {
+	background : #157e55;
+	border : 1px solid #157e55;
+	border-radius : 5px;
+	display : block;
+	float : left;
+	width : 268px;
+}
+form .tab select {
+	width : 290px;
+}
+form .tab img.edit-phone {
+	display : block;
+	float : left;
+	margin : 6px 0 0 10px;
+	width : 20px;
+}
+form .tab button {
+	background : #ffffff;
+	border : 1px solid #ffffff;
+	border-radius : 5px;
+	color : #043228;
+	display : block;
+	font-weight : 600;
+	letter-spacing : 3px;
+	margin : 20px auto 0 auto;
+	text-transform : uppercase;
+	width : 180px;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content ul {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 300px;
+	}
+	div.content ul li {
+		float : left;
+		margin : 0 6px 0 0 !important;
+	}
+	div.content ul li a {
+		width : 145px;
+	}
+	div.content form div.tab {
+		float : none;
+		width : 300px;
+	}
+	form .tab p.title {
+		float : none;
+		width : 300px;
+	}
+	form .tab input {
+		float : none;
+		width : 278px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content ul {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 340px;
+	}
+	div.content ul li {
+		float : left;
+		margin : 0 6px 0 0 !important;
+	}
+	div.content ul li a {
+		width : 165px;
+	}
+	div.content form div.tab {
+		float : none;
+		width : 340px;
+	}
+	form .tab p.title {
+		float : none;
+		width : 340px;
+	}
+	form .tab input {
+		float : none;
+		width : 318px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content ul {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 460px;
+	}
+	div.content ul li {
+		float : left;
+	}
+	div.content ul li:first-child {
+		margin : 0 6px 0 25px !important;
+	}
+	div.content ul li a {
+		width : 200px;
+	}
+	div.content form div.tab {
+		float : none;
+		width : 460px;
+	}
+	form .tab input {
+		width : 238px;
+	}
+	form .tab select {
+		width : 260px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content ul {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 580px;
+	}
+	div.content ul li {
+		float : left;
+		margin : 0 6px 0 0 !important;
+	}
+	div.content ul li:first-child {
+		margin : 0 6px 0 87px !important;
+	}
+	div.content form div.tab {
+		float : none;
+		width : 580px;
+	}
+	form .tab input {
+		width : 358px;
+	}
+	form .tab select {
+		width : 380px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content ul {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 620px;
+	}
+	div.content ul li {
+		float : left;
+		margin : 0 6px 0 0 !important;
+	}
+	div.content ul li:first-child {
+		margin : 0 6px 0 107px !important;
+	}
+	div.content form div.tab {
+		float : none;
+		width : 620px;
+	}
+	form .tab input {
+		width : 398px;
+	}
+	form .tab select {
+		width : 420px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.content form div.tab {
+		width : 528px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.content form div.tab {
+		width : 560px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.content form div.tab {
+		width : 660px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.content form div.tab {
+		width : 740px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.content form div.tab {
+		width : 784px;
+	}
+	
+	
+}

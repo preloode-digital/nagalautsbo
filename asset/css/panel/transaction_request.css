@@ -1,0 +1,598 @@
+/*==================== Basic ====================*/
+
+/*========== Popup ==========*/
+div.wrapper .popup div.button {
+	margin : 0 auto 10px auto;
+	width : 210px;
+}
+div.popup .button button.accept,
+div.popup .button button.reject {
+	background : #68b828;
+	border : 1px solid #5ca323;
+	display : block;
+	float : left;
+	line-height : 30px;
+	margin : 0 10px 0 0;
+	width : 100px;
+}
+div.popup .button button.reject {
+	background : #e51400;
+	border : 1px solid #b21000;
+	margin : 0;
+}
+div.popup .button button.accept:hover {
+	background : #5ca323;
+}
+div.popup .button button.reject:hover {
+	background : #b21000;
+}
+
+
+/*==================== Content ====================*/
+div.filter form input:nth-child(2) {
+	width : 80px;
+}
+div.filter form select:nth-child(3) {
+	width : 100px;
+}
+div.filter form input:nth-child(4) {
+	width : 80px;
+}
+div.filter form select:nth-child(5) {
+	width : 100px;
+}
+div.filter form select:nth-child(6) {
+	width : 100px;
+}
+div.filter form select:nth-child(7) {
+	width : 100px;
+}
+div.filter form select:nth-child(8) {
+	width : 100px;
+}
+div.filter form select:nth-child(9) {
+	width : 100px;
+}
+div.content table td:last-child {
+	width : 140px;
+}
+table td button.load-detail {
+	background : #389af0;
+	border : 1px solid #367fa9;
+	margin : 5px 10px;
+	padding : 0;
+	width : 120px;
+}
+table td button.load-detail:hover {
+	background : #367fa9;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 145px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 125px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 145px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 145px;
+	}
+	div.filter form select:nth-child(8) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 190px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 116px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 250px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 165px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 165px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 165px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 165px;
+	}
+	div.filter form select:nth-child(8) {
+		margin : 0 0 10px 0;
+		width : 165px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 230px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 156px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 97px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 117px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 96px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 140px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 140px;
+	}
+	div.filter form select:nth-child(7) {
+		margin : 0 0 10px 0;
+		width : 140px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 160px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 160px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 137px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 157px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 136px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 180px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 180px;
+	}
+	div.filter form select:nth-child(7) {
+		margin : 0 0 10px 0;
+		width : 180px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 220px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 220px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 170px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 150px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 193px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 194px;
+	}
+	div.filter form select:nth-child(7) {
+		margin : 0 0 10px 0;
+		width : 193px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 240px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 240px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 140px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 160px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 140px;
+	}
+	div.filter form select:nth-child(5) {
+		margin : 0 0 10px 0;
+		width : 160px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 150px;
+	}
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 170px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(5) {
+		margin : 0 0 10px 0;
+		width : 170px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 160px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 160px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 160px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 160px;
+	}
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 175px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 195px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 175px;
+	}
+	div.filter form select:nth-child(5) {
+		margin : 0 0 10px 0;
+		width : 195px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 185px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 185px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 185px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 185px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 190px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 210px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 190px;
+	}
+	div.filter form select:nth-child(5) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 200px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 200px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 200px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 200px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 68px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 89px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 68px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 89px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 89px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 89px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 89px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 89px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 73px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 94px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 73px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 94px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 94px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 94px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 94px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 94px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 107px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 128px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 107px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 127px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 128px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 128px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 127px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 128px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 151px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 171px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 151px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 171px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 172px;
+	}
+	div.filter form select:nth-child(7) {
+		width : 172px;
+	}
+	div.filter form select:nth-child(8) {
+		width : 171px;
+	}
+	div.filter form select:nth-child(9) {
+		width : 171px;
+	}
+	
+	
+}

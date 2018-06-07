@@ -1,0 +1,235 @@
+/*==================== Content ====================*/
+div.filter form input:nth-child(2) {
+	width : 410px;
+}
+div.filter form select:nth-child(3) {
+	width : 430px;
+}
+div.content table td:nth-child(2) {
+	color : #f7f7f7;
+	cursor : pointer;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 190px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 250px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 230px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 105px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 125px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 165px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 185px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 185px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 205px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 255px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 275px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 275px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 295px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 325px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 345px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 355px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 375px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 365px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 385px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 385px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 405px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 520px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 540px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 695px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 715px;
+	}
+	
+	
+}

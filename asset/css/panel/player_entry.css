@@ -1,0 +1,10 @@
+/*==================== Content ====================*/
+div.detail form input.picture-file {
+	display : none;
+}
+div.detail form input.game-id {
+	width : 285px;
+}
+div.detail form input.game-credit {
+	width : 155px;
+}

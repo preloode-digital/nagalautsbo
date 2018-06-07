@@ -1,0 +1,260 @@
+/*==================== Content ====================*/
+#content {
+	background : #051d18;
+	padding : 0;
+}
+#content .wrapper div.content {
+	background : #043228;
+	padding : 50px 100px;
+}
+div.wrapper .content div.header {
+	background : #157e55;
+	margin : 0 0 20px 0;
+}
+div.content .header h2 {
+	background : #c90000;
+    background : -webkit-linear-gradient(#5f0000, #c90000);
+    background : -o-linear-gradient(#5f0000, #c90000);
+    background : -moz-linear-gradient(#5f0000, #c90000);
+    background : linear-gradient(#5f0000, #c90000);
+	border : 1px solid #df0000;
+	margin : 0;
+	letter-spacing : 3px;
+	line-height : 30px;
+	text-align : center;
+	text-transform : uppercase;
+	width : 180px;
+}
+div.filter form input,
+div.filter form select {
+	display : block;
+	float : left;
+	margin : 0 20px 20px 0;
+	width : 298px;
+}
+div.filter form select {
+	width : 320px;
+}
+div.filter form input:nth-child(3) {
+	margin : 0 0 20px 0;
+}
+div.wrapper .content table.ranking {
+	border-collapse : collapse;
+	width : 100%;
+}
+div.content .ranking tr {
+	background : #fff;
+}
+div.content .ranking tr:nth-child(2n+2) {
+	background : #ccc;
+}
+table.ranking tr th {
+	border : 1px solid #043228;
+}
+table.ranking tr th p {
+	color : #000;
+	line-height : 20px;
+	margin : 5px 20px;
+}
+table.ranking tr td {
+	border : 1px solid #043228;
+}
+table.ranking tr td p {
+	color : #000;
+	margin : 5px 20px;
+	text-align : center;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.header {
+		background : none;
+	}
+	div.filter form input {
+		float : left;
+		margin : 0 0 20px 0;
+		width : 278px;
+	}
+	div.filter form select {
+		float : left;
+		margin : 0 0 20px 0;
+		width : 300px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.header {
+		background : none;
+	}
+	div.filter form input {
+		float : left;
+		margin : 0 0 20px 0;
+		width : 318px;
+	}
+	div.filter form select {
+		float : left;
+		margin : 0 0 20px 0;
+		width : 340px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.filter form input {
+		width : 118px;
+	}
+	div.filter form select {
+		width : 140px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.filter form input {
+		width : 158px;
+	}
+	div.filter form select {
+		width : 180px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.filter form input {
+		width : 171px;
+	}
+	div.filter form select {
+		width : 194px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.filter form input {
+		width : 214px;
+	}
+	div.filter form select {
+		width : 236px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.filter form input {
+		width : 225px;
+	}
+	div.filter form select {
+		width : 246px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.filter form input {
+		width : 258px;
+	}
+	div.filter form select {
+		width : 280px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.filter form input {
+		width : 285px;
+	}
+	div.filter form select {
+		width : 306px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.filter form input {
+		width : 299px;
+	}
+	div.filter form select {
+		width : 322px;
+	}
+	
+	
+}

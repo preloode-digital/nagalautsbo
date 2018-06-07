@@ -1,0 +1,455 @@
+/*==================== Basic ====================*/
+
+/*========== Popup ==========*/
+div.wrapper .popup a {
+	display : block;
+	height : 30px;
+	margin : 0 auto 10px auto;
+	width : 150px;
+}
+div.popup a p.transaction {
+	background : #389af0;
+	border : 1px solid #367fa9;
+	line-height : 30px;
+	margin : 0;
+	text-align : center;
+	width : 148px;
+}
+div.popup a p.transaction:hover {
+	background : #367fa9;
+	color : #f7f7f7;
+}
+
+
+/*==================== Content ====================*/
+div.filter form input:nth-child(2) {
+	width : 146px;
+}
+div.filter form input:nth-child(3) {
+	width : 146px;
+}
+div.filter form select:nth-child(4) {
+	width : 166px;
+}
+div.filter form select:nth-child(5) {
+	width : 166px;
+}
+div.filter form select:nth-child(6) {
+	width : 166px;
+}
+div.content table td:nth-child(2) {
+	color : #f7f7f7;
+	cursor : pointer;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 125px;
+	}
+	div.filter form select:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 145px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form button.filter {
+		margin : 0 0 10px 100px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 76px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 250px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 145px;
+	}
+	div.filter form select:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 165px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 165px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 165px;
+	}
+	div.filter form button.filter {
+		margin : 0 0 10px 120px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 116px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 160px;
+	}
+	div.filter form input:nth-child(3) {
+		margin : 0 0 10px 0;
+		width : 160px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 103px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 104px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 103px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 220px;
+	}
+	div.filter form input:nth-child(3) {
+		margin : 0 0 10px 0;
+		width : 220px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 143px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 144px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 143px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 240px;
+	}
+	div.filter form input:nth-child(3) {
+		margin : 0 0 10px 0;
+		width : 240px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 156px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 157px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 157px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 310px;
+	}
+	div.filter form input:nth-child(3) {
+		margin : 0 0 10px 0;
+		width : 310px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 203px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 204px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 203px;
+	}
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5),
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 330px;
+	}
+	div.filter form input:nth-child(3) {
+		margin : 0 0 10px 0;
+		width : 330px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 216px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 217px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 217px;
+	}
+	div.content table th:nth-child(6),
+	div.content table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 112px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 112px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 132px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 132px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 132px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 124px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 124px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 144px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 144px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 144px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 128px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 128px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 148px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 148px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 148px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 136px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 136px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 156px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 156px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 156px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 190px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 190px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 210px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 210px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 210px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 260px;
+	}
+	div.filter form input:nth-child(3) {
+		width : 260px;
+	}
+	div.filter form select:nth-child(4) {
+		width : 280px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 280px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 280px;
+	}
+	
+	
+}

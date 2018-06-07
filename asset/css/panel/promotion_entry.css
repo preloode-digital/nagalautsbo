@@ -1,0 +1,9 @@
+/*==================== Content ====================*/
+div.detail form input.picture-file {
+	display : none;
+}
+div.detail form div.description {
+	float : left;
+	margin : 0 0 10px 0;
+	width : 490px;
+}

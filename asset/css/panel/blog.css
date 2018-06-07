@@ -1,0 +1,440 @@
+/*==================== Content ====================*/
+div.filter form input:nth-child(2) {
+	width : 146px;
+}
+div.filter form select:nth-child(3) {
+	width : 166px;
+}
+div.filter form input:nth-child(4) {
+	width : 146px;
+}
+div.filter form select:nth-child(5) {
+	width : 166px;
+}
+div.filter form select:nth-child(6) {
+	width : 166px;
+}
+div.content table td:nth-child(2) {
+	color : #f7f7f7;
+	cursor : pointer;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 145px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 125px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 145px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form button.filter {
+		margin : 0 0 10px 100px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 76px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		margin : 0 0 10px 0;
+		width : 250px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 165px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 145px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 165px;
+	}
+	div.filter form select:nth-child(6) {
+		margin : 0 0 10px 0;
+		width : 165px;
+	}
+	div.filter form button.filter {
+		margin : 0 0 10px 120px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5) {
+		display : none;
+	}
+	div.content table th:nth-child(2) p,
+	div.content table td:nth-child(2) p {
+		width : 116px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 97px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 116px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 97px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 160px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 160px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4),
+	div.content table th:nth-child(5),
+	div.content table td:nth-child(5) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 137px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 156px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 137px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 220px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 220px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 150px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 170px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 150px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 240px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 240px;
+	}
+	div.content table th:first-child,
+	div.content table td:first-child,
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 197px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 216px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 197px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 310px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 310px;
+	}
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 210px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 230px;
+	}
+	div.filter form input:nth-child(4) {
+		margin : 0 0 10px 0;
+		width : 210px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 330px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 330px;
+	}
+	div.content table th:nth-child(3),
+	div.content table td:nth-child(3),
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 112px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 132px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 112px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 132px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 132px;
+	}
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 124px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 144px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 124px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 144px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 144px;
+	}
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 128px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 148px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 128px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 148px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 148px;
+	}
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 136px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 156px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 136px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 156px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 156px;
+	}
+	div.content table th:nth-child(4),
+	div.content table td:nth-child(4) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 190px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 210px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 190px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 210px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 210px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	div.filter form input:nth-child(2) {
+		width : 260px;
+	}
+	div.filter form select:nth-child(3) {
+		width : 280px;
+	}
+	div.filter form input:nth-child(4) {
+		width : 260px;
+	}
+	div.filter form select:nth-child(5) {
+		width : 280px;
+	}
+	div.filter form select:nth-child(6) {
+		width : 280px;
+	}
+	
+	
+}

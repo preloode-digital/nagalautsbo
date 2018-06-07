@@ -1,0 +1,20 @@
+/*==================== Content ====================*/
+div.filter form input:nth-child(2) {
+	width : 146px;
+}
+div.filter form input:nth-child(3) {
+	width : 146px;
+}
+div.filter form input:nth-child(4) {
+	width : 146px;
+}
+div.filter form select:nth-child(5) {
+	width : 166px;
+}
+div.filter form select:nth-child(6) {
+	width : 166px;
+}
+div.content table td:nth-child(2) {
+	color : #f7f7f7;
+	cursor : pointer;
+}

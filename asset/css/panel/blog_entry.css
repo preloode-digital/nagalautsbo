@@ -1,0 +1,9 @@
+/*==================== Content ====================*/
+div.detail form input.picture-file {
+	display : none;
+}
+div.detail form div.blog-content {
+	float : left;
+	margin : 0 10px 10px 0;
+	width : 490px;
+}

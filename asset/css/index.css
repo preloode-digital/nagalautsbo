@@ -1,0 +1,83 @@
+/*==================== Content ====================*/
+#content .wrapper div.slider {
+	height : 402px;
+	margin : 0 0 20px 0;
+}
+#content .wrapper div.step {
+	margin : 0 0 20px 0;
+}
+div.wrapper .step div.grid {
+	border-left : 1px dotted #fff;
+	float : left;
+	font-weight : 600;
+	height : 197.5px;
+	padding : 0 20px;
+	text-align : center;
+	text-transform : uppercase;
+	width : 209.25px;
+}
+div.wrapper .step div.grid:first-child {
+	border : none;
+}
+div.step .grid p {
+	margin : 0 0 5px 0;
+}
+div.step .grid img {
+	margin : 0 0 5px 0;
+	width : 100px;
+}
+div.step .grid h2 {
+	margin : 0 0 5px 0;
+}
+div.step .grid p:last-child {
+	margin : 0;
+}
+#content .wrapper div.banner {
+	margin : 0 0 20px 0;
+}
+#content .wrapper div.banking {
+	margin : 0 0 20px 0;
+}
+div.wrapper .banking div.grid:first-child {
+	border : 1px solid #ffb701;
+	border-radius : 10px;
+	float : left;
+	margin : 0 20px 0 0;
+	text-align : center;
+	width : 728px;
+}
+div.banking .grid:first-child h3 {
+	letter-spacing : 2px;
+	margin : 0 0 10px 0;
+	text-transform : uppercase;
+}
+div.banking .grid:first-child div.bank {
+	border-left : 1px dotted #ffb701;
+	float : left;
+	height : 149px;
+	margin : 0 0 10px 0;
+	padding : 0 5px;
+	width : 171.25px;
+}
+div.banking .grid:first-child div.bank:nth-child(2) {
+	border : none;
+}
+div.grid:first-child .bank img {
+	height : 35px;
+	margin : 0 0 5px 0;
+}
+div.grid:first-child .bank p {
+	line-height : 15px;
+	margin : 0 0 5px 0;
+}
+div.bank p span {
+	color : #ffb701;
+}
+div.wrapper .banking div.grid:nth-child(2) {
+	float : left;
+	width : 250px;
+}
+div.banking .grid:nth-child(2) img {
+	height : 180px;
+	margin : 5px 0;
+}

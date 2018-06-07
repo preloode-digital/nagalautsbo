@@ -1,0 +1,21 @@
+<IfModule mod_rewrite.c>
+
+	
+	RewriteEngine On
+
+	
+	#Add slash to end URL
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_URI} !example.php
+	RewriteCond %{REQUEST_URI} !(.*)/$
+	RewriteRule ^(.*)$ http://localhost/php/nagalautsbo/$1/ [L,R=301]
+
+	
+	#Removes index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php/$1 [L]
+	
+	
+</IfModule>
+

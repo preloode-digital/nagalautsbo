@@ -1,0 +1,43 @@
+/*==================== Content ====================*/
+#content div.wrapper {
+	background : #300002;
+	padding : 50px 0 200px 0;
+}
+#content .wrapper div.navigation {
+	height : 110px;
+	margin : 0 auto 30px auto;
+	text-align : center;
+	width : 438px;
+}
+div.wrapper .navigation img {
+	cursor : pointer;
+	display : block;
+	float : left;
+	height : 90px;
+	margin : 10px 0 0 10px;
+}
+div.wrapper .navigation img:nth-child(3) {
+	height : 110px;
+	margin : 0 0 0 10px;
+}
+div.wrapper .navigation img:first-child {
+	margin : 10px 0 0 0;
+}
+#content .wrapper div.content {
+	display : none;
+	margin : 0 auto;
+	opacity : 0;
+	text-align : center;
+	width : 900px;
+}
+#content .wrapper div.content:nth-child(4) {
+	display : block;
+	opacity : 1;
+}
+div.content a img {
+	margin : 0 0 0 10px;
+	width : 215px;
+}
+div.content a:first-child img {
+	margin : 0;
+}

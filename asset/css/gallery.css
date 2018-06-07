@@ -1,0 +1,239 @@
+/*==================== Content ====================*/
+#content {
+	background : #051d18;
+	padding : 0;
+}
+#content .wrapper div.content {
+	background : #043228;
+	padding : 50px 100px;
+}
+div.wrapper .content div.header {
+	background : #157e55;
+	margin : 0 0 20px 0;
+}
+div.content .header h2 {
+	background : #c90000;
+    background : -webkit-linear-gradient(#5f0000, #c90000);
+    background : -o-linear-gradient(#5f0000, #c90000);
+    background : -moz-linear-gradient(#5f0000, #c90000);
+    background : linear-gradient(#5f0000, #c90000);
+	border : 1px solid #df0000;
+	margin : 0;
+	letter-spacing : 3px;
+	line-height : 30px;
+	text-align : center;
+	text-transform : uppercase;
+	width : 180px;
+}
+div.wrapper .content div.grid {
+	background : url(../image/video_background.png) center center no-repeat;
+	background-size : 100% 100%;
+	border : 1px solid #1cae75;
+	float : left;
+	margin : 0 20px 20px 0;
+	width : 488px;
+}
+div.wrapper .content div.grid:nth-child(2n+3) {
+	margin : 0 0 20px 0;
+}
+div.content .grid h2 {
+	font-family : bebas-neue, Arial, sans-serif;
+	letter-spacing : 5px;
+	line-height : 35px;
+	margin : 10px 0;
+	text-align : center;
+	text-transform : uppercase;
+}
+div.content .grid iframe {
+	height : 291px;
+	width : 100%;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.header {
+		background : none;
+	}
+	div.wrapper .content div.grid {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 300px;
+	}
+	div.content .grid iframe {
+		height : 198px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.header {
+		background : none;
+	}
+	div.wrapper .content div.grid {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 340px;
+	}
+	div.content .grid iframe {
+		height : 227px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.grid {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 460px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 278px;
+	}
+	div.content .grid iframe {
+		height : 166px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 20px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 298px;
+	}
+	div.content .grid iframe {
+		height : 178px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 362px;
+	}
+	div.content .grid iframe {
+		height : 216px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 378px;
+	}
+	div.content .grid iframe {
+		height : 225px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 428px;
+	}
+	div.content .grid iframe {
+		height : 255px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 468px;
+	}
+	div.content .grid iframe {
+		height : 279px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	#content .wrapper div.content {
+		padding : 50px 10px;
+	}
+	div.wrapper .content div.grid {
+		width : 490px;
+	}
+	div.content .grid iframe {
+		height : 292px;
+	}
+	
+	
+}

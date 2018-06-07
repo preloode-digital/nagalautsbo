@@ -1,0 +1,332 @@
+/*==================== Basic ====================*/
+
+/*========== Popup ==========*/
+div.wrapper .popup p.username {
+	width : 250px;
+}
+div.wrapper .popup p.credit {
+	width : 200px;
+}
+div.wrapper .popup div.button {
+	margin : 0 auto 10px auto;
+	width : 210px;
+}
+div.popup .button button.accept,
+div.popup .button button.reject {
+	background : #68b828;
+	border : 1px solid #5ca323;
+	display : block;
+	float : left;
+	line-height : 30px;
+	margin : 0 10px 0 0;
+	width : 100px;
+}
+div.popup .button button.reject {
+	background : #e51400;
+	border : 1px solid #b21000;
+	margin : 0;
+}
+div.popup .button button.accept:hover {
+	background : #5ca323;
+}
+div.popup .button button.reject:hover {
+	background : #b21000;
+}
+
+
+/*==================== Content ====================*/
+div.wrapper .content div.subtitle {
+	background : rgba(247, 247, 247, 0.2);
+	margin : 0 0 20px 0;
+}
+div.content .subtitle h3 {
+	color : #f7f7f7;
+	line-height : 40px;
+	margin : 0;
+	text-align : center;
+	text-transform : uppercase;
+}
+div.content .transaction-request h3,
+div.content .new-player h3 {
+	color : #f7f7f7;
+	line-height : 40px;
+	margin : 0 0 20px 0;
+	text-align : center;
+}
+div.wrapper .content div.transaction-request,
+div.wrapper .content div.new-player {
+	margin : 0 0 20px 0;
+}
+div.transaction-request table td:last-child,
+div.new-player table td:last-child {
+	width : 140px;
+}
+div.transaction-request table td button.load-transaction-request-detail,
+div.new-player table td button.load-player-detail {
+	background : #389af0;
+	border : 1px solid #367fa9;
+	margin : 5px 10px;
+	padding : 0;
+	width : 120px;
+}
+div.transaction-request table td button.load-transaction-request-detail:hover,
+div.new-player table td button.load-player-detail:hover {
+	background : #367fa9;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Popup ==========*/
+	div.wrapper .popup p.username {
+		width : 150px;
+	}
+	div.wrapper .popup p.credit {
+		margin : 0 0 10px 150px;
+		width : 150px;
+	}
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:first-child,
+	div.transaction-request table td:first-child,
+	div.transaction-request table th:nth-child(3),
+	div.transaction-request table td:nth-child(3),
+	div.transaction-request table th:nth-child(4),
+	div.transaction-request table td:nth-child(4),
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	div.transaction-request table th:nth-child(2) p,
+	div.transaction-request table td:nth-child(2) p {
+		width : 116px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Popup ==========*/
+	div.wrapper .popup p.username {
+		width : 190px;
+	}
+	div.wrapper .popup p.credit {
+		margin : 0 0 10px 150px;
+		width : 190px;
+	}
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:first-child,
+	div.transaction-request table td:first-child,
+	div.transaction-request table th:nth-child(3),
+	div.transaction-request table td:nth-child(3),
+	div.transaction-request table th:nth-child(4),
+	div.transaction-request table td:nth-child(4),
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	div.transaction-request table th:nth-child(2) p,
+	div.transaction-request table td:nth-child(2) p {
+		width : 156px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Popup ==========*/
+	div.wrapper .popup p.username {
+		width : 100px;
+	}
+	div.wrapper .popup p.credit {
+		width : 100px;
+	}
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:first-child,
+	div.transaction-request table td:first-child,
+	div.transaction-request table th:nth-child(3),
+	div.transaction-request table td:nth-child(3),
+	div.transaction-request table th:nth-child(4),
+	div.transaction-request table td:nth-child(4),
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Popup ==========*/
+	div.wrapper .popup p.username {
+		width : 200px;
+	}
+	div.wrapper .popup p.credit {
+		width : 110px;
+	}
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:first-child,
+	div.transaction-request table td:first-child,
+	div.transaction-request table th:nth-child(4),
+	div.transaction-request table td:nth-child(4),
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Popup ==========*/
+	div.wrapper .popup p.username {
+		width : 200px;
+	}
+	div.wrapper .popup p.credit {
+		width : 150px;
+	}
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:first-child,
+	div.transaction-request table td:first-child,
+	div.transaction-request table th:nth-child(4),
+	div.transaction-request table td:nth-child(4),
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:nth-child(5),
+	div.transaction-request table td:nth-child(5),
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Content ====================*/
+	div.transaction-request table th:nth-child(6),
+	div.transaction-request table td:nth-child(6) {
+		display : none;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	
+	
+}

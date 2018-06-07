@@ -1,0 +1,2069 @@
+/*==================== Custom Font ====================*/
+@font-face {
+	font-family : 'roboto-light';
+	font-style : normal;
+	font-weight : normal;
+	src : url('../../font/panel/roboto-light-webfont.eot');
+	src : url('../../font/panel/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../../font/panel/roboto-light-webfont.woff2') format('woff2'),
+	url('../../font/panel/roboto-light-webfont.woff') format('woff'),
+	url('../../font/panel/roboto-light-webfont.ttf') format('truetype'),
+	url('../../font/panel/roboto-light-webfont.svg#robotolight') format('svg');
+}
+
+
+/*==================== Basic ====================*/
+html, body {
+	background : #383f48;
+	color : #798699;
+	font-family : roboto-light, Arial, sans-serif;
+	font-size : 12px;
+	margin : 0;
+	padding : 0;
+}
+h1, h2 {
+	font-size : 16px;
+	font-weight : 600;
+}
+a {
+	color : #f7f7f7;
+	text-decoration : none;
+}
+a:hover {
+	text-decoration : underline;
+}
+#wrapper {
+	height : 100%;
+	width : 100%;
+}
+.clearfix {
+	clear : both;
+}
+.mobile {
+	display : none;
+}
+
+/*========== Background ==========*/
+.background-blue {
+	background : #418bca;
+}
+
+/*========== Ckeditor ==========*/
+.ck-editor__editable_inline {
+	height : 500px !important;
+}
+
+/*========== Font ==========*/
+.xs-font {
+	font-size : 8px;
+}
+.s-font {
+	font-size : 10px;
+}
+.m-font {
+	font-size : 14px;
+}
+.l-font {
+	font-size : 18px;
+}
+.xl-font {
+	font-size : 22px;
+}
+.xxl-font {
+	font-size : 26px;
+}
+.xxxl-font {
+	font-size : 30px;
+}
+
+/*========== Form ==========*/
+input,
+textarea {
+	background : none;
+	border : none;
+	border-bottom : 2px solid #798699;
+	color : #798699;
+	font-size : 12px;
+	line-height : 20px;
+	padding : 5px 10px;
+	transition-duration : 1s;
+}
+select {
+	background : none;
+	border : none;
+	border-bottom : 2px solid #798699;
+	color : #798699;
+	height : 32px;
+	padding : 5px 0 5px 10px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+	border-bottom : 2px solid #367fa9;
+}
+select option {
+	background : none;
+	color : #798699;
+	padding : 7.5px 0 7.5px 10px;
+}
+select option:first-child {
+	display : none;
+}
+textarea {
+	resize : none;
+}
+button {
+	color : #f7f7f7;
+	cursor : pointer;
+	font-size : 12px;
+	line-height : 30px;
+}
+
+/*========== Icon ==========*/
+i {
+	background-size : auto 100% !important;
+	cursor : pointer;
+	display : inline-block;
+	margin-bottom : -4px;
+}
+i.add-white {
+	background : url(../../image/panel/add_icon_white.png) center no-repeat;
+}
+i.article-white {
+	background : url(../../image/panel/article_icon_white.png) center no-repeat;
+}
+i.back-grey {
+	background : url(../../image/panel/back_icon_grey.png) center no-repeat;
+}
+i.bell-white {
+	background : url(../../image/panel/bell_icon_white.png) center no-repeat;
+}
+i.bank-white {
+	background : url(../../image/panel/bank_icon_white.png) center no-repeat;
+}
+i.bank-account-white {
+	background : url(../../image/panel/bank_account_icon_white.png) center no-repeat;
+}
+i.category-white {
+	background : url(../../image/panel/category_icon_white.png) center no-repeat;
+}
+i.classement-white {
+	background : url(../../image/panel/classement_icon_white.png) center no-repeat;
+}
+i.dashboard-white {
+	background : url(../../image/panel/dashboard_icon_white.png) center no-repeat;
+}
+i.filter-white {
+	background : url(../../image/panel/filter_icon_white.png) center no-repeat;
+}
+i.flow-white {
+	background : url(../../image/panel/flow_icon_white.png) center no-repeat;
+}
+i.game-white {
+	background : url(../../image/panel/game_icon_white.png) center no-repeat;
+}
+i.home-white {
+	background : url(../../image/panel/home_icon_white.png) center no-repeat;
+}
+i.link-white {
+	background : url(../../image/panel/link_icon_white.png) center no-repeat;
+}
+i.menu-white {
+	background : url(../../image/panel/menu_icon_white.png) center no-repeat;
+}
+i.next-grey {
+	background : url(../../image/panel/next_icon_grey.png) center no-repeat;
+}
+i.pencil-white {
+	background : url(../../image/panel/pencil_icon_white.png) center no-repeat;
+}
+i.picture-white {
+	background : url(../../image/panel/picture_icon_white.png) center no-repeat;
+}
+i.player-white {
+	background : url(../../image/panel/player_icon_white.png) center no-repeat;
+}
+i.power-white {
+	background : url(../../image/panel/power_icon_white.png) center no-repeat;
+}
+i.promotion-white {
+	background : url(../../image/panel/promotion_icon_white.png) center no-repeat;
+}
+i.refresh-white {
+	background : url(../../image/panel/refresh_icon_white.png) center no-repeat;
+}
+i.remove-white {
+	background : url(../../image/panel/remove_icon_white.png) center no-repeat;
+}
+i.report-white {
+	background : url(../../image/panel/report_icon_white.png) center no-repeat;
+}
+i.setting-white {
+	background : url(../../image/panel/setting_icon_white.png) center no-repeat;
+}
+i.soccer-field-white {
+	background : url(../../image/panel/soccer_field_icon_white.png) center no-repeat;
+}
+i.toggle-white {
+	background : url(../../image/panel/toggle_icon_white.png) center no-repeat;
+}
+i.transaction-white {
+	background : url(../../image/panel/transaction_icon_white.png) center no-repeat;
+}
+i.trash-white {
+	background : url(../../image/panel/trash_icon_white.png) center no-repeat;
+}
+i.user-white {
+	background : url(../../image/panel/user_icon_white.png) center no-repeat;
+}
+i.user-role-white {
+	background : url(../../image/panel/user_role_icon_white.png) center no-repeat;
+}
+i.view-white {
+	background : url(../../image/panel/view_icon_white.png) center no-repeat;
+}
+i.margin-right-10 {
+	margin-right : 10px;
+}
+i.margin-right-5 {
+	margin-right : 5px;
+}
+i.square-15 {
+	height : 15px;
+	width : 15px;
+}
+i.square-20 {
+	height : 20px;
+	width : 20px;
+}
+i.square-30 {
+	height : 30px;
+	width : 30px;
+}
+
+/*========== Image ==========*/
+img.full {
+	height : 100%;
+	width : 100%;
+}
+img.full-width {
+	height : auto;
+	width : 100%;
+}
+img.full-height {
+	height : 100%;
+	width : auto;
+}
+img.responsive {
+	height : auto;
+	max-width : 100%;
+	max-height : 100%;
+	width : auto;
+}
+
+/*========== Loading ==========*/
+#loading {
+	background : rgba(17,17,17,0.5);
+	display : none;
+	height : 100%;
+	left : 0;
+	opacity : 0;
+	position : fixed;
+	top : 0;
+	width : 100%;
+	z-index : 103;
+}
+#loading div.wrapper {
+	height : 60px;
+	margin : 0 auto;
+	width : 60px;
+}
+#loading .wrapper div.circle {
+	-moz-animation : spinPulse 1s infinite ease-in-out;
+	-webkit-animation : spinPulse 1s infinite linear;
+	background : rgba(0,0,0,0);
+	border : 5px solid rgba(0,183,229,0.9);
+	border-left : 5px solid rgba(0,0,0,0);
+	border-radius : 50px;
+	border-right : 5px solid rgba(0,0,0,0);
+	box-shadow : 0 0 35px #2187e7;
+	height : 50px;
+	margin : 0 auto;
+	opacity : 0.9;
+	width : 50px;
+}
+#loading .wrapper div.circle-1 {
+	-moz-animation : spinoffPulse 1s infinite linear;
+	-webkit-animation : spinoffPulse 1s infinite linear;
+	background : rgba(0,0,0,0);
+	border : 5px solid rgba(0,183,229,0.9);
+	border-left : 5px solid rgba(0,0,0,0);
+	border-radius : 50px;
+	border-right : 5px solid rgba(0,0,0,0);
+	box-shadow : 0 0 15px #2187e7;
+	height : 30px;
+	margin : 0 auto;
+	opacity : 0.9;
+	position : relative;
+	top : -50px;
+	width : 30px;
+}
+@-moz-keyframes spinPulse {
+	0% {
+		-moz-transform : rotate(160deg);
+		box-shadow : 0 0 1px #2187e7;
+		opacity : 0;
+	}
+	50% {
+		-moz-transform : rotate(145deg);
+		opacity : 1;
+	}
+	100% {
+		-moz-transform : rotate(-320deg);
+		opacity : 0;
+	}
+}
+@-moz-keyframes spinoffPulse {
+	0% {
+		-moz-transform : rotate(0deg);
+	}
+	100% {
+		-moz-transform : rotate(360deg);
+	}
+}
+@-webkit-keyframes spinPulse {
+	0% {
+		-webkit-transform : rotate(160deg);
+		box-shadow : 0 0 1px #2187e7;
+		opacity : 0;
+	}
+	50% {
+		-webkit-transform : rotate(145deg);
+		opacity : 1;
+	}
+	100% {
+		-webkit-transform : rotate(-320deg);
+		opacity : 0;
+	}
+}
+@-webkit-keyframes spinoffPulse {
+	0% {
+		-webkit-transform : rotate(0deg);
+	}
+	100% {
+		-webkit-transform : rotate(360deg);
+	}
+}
+
+/*========== Popup ==========*/
+#popup {
+	background : rgba(56, 63, 72, 0.8);
+	display : none;
+	height : 100%;
+	left : 0;
+	opacity : 0;
+	position : fixed;
+	top : 0;
+	width : 100%;
+	z-index : 101;
+}
+#popup div.wrapper {
+	background : #272c33;
+	margin : 90px auto 0 auto;
+	opacity : 0;
+	width : 700px;
+}
+#popup .wrapper div.close {
+	height : 20px;
+	padding : 10px 10px 0 10px;
+	position : relative;
+	text-align : right;
+	z-index : 1;
+}
+#popup .wrapper div.popup {
+	margin : -30px 0 0 0;
+	padding : 20px;
+	position : relative;
+}
+div.wrapper .popup p {
+	float : left;
+	line-height : 20px;
+	margin : 0 0 10px 0;
+}
+div.wrapper .popup p.title {
+	font-weight : 600;
+	width : 200px;
+}
+div.wrapper .popup p.colon {
+	font-weight : 600;
+	margin : 0 0 10px 0;
+	width : 10px;
+}
+div.wrapper .popup p.detail {
+	width : 450px;
+}
+div.wrapper .popup div.checkbox {
+	float : left;
+	margin : 0 0 10px 0;
+	width : 450px;
+}
+div.popup .checkbox div.item {
+	float : left;
+}
+div.popup .checkbox .item input {
+	float : left;
+	height : 20px !important;
+	margin : 0;
+	width : 30px;
+}
+div.popup .checkbox .item p {
+	float : left;
+	line-height : 20px !important;
+	margin : 0 !important;
+}
+
+/*========== Response ==========*/
+#response {
+	border-radius : 5px;
+	display : none;
+	left : 35%;
+	min-height : 40px;
+	position : fixed;
+	top : 50px;
+	width : 30%;
+	z-index : 102;
+}
+#response p {
+	color : #e9e9e9;
+	font-weight : 600;
+	line-height : 20px;
+	margin : 0 10px 10px 10px;
+	text-align : center;
+}
+#response p:first-child {
+	margin : 10px;
+}
+div.success {
+	background : #26c6da;
+}
+div.error {
+	background : #fc4b6c;
+}
+
+
+/*==================== Content ====================*/
+#content {
+	margin : 61px 0 0 250px;
+}
+#content div.wrapper {
+	padding : 30px 0 0 0;
+	margin : 0 auto;
+	width : 1050px;
+}
+#content .wrapper div.content {
+	min-height : 706px;
+}
+#content .wrapper div.header {
+	margin : 0 0 20px 0;
+}
+div.wrapper .header h2.page-title {
+	color : #f7f7f7;
+	font-size : 32px;
+	font-weight : 400;
+	margin : 0 20px 20px 0;
+}
+div.wrapper .header div.pagination,
+div.wrapper .content div.pagination {
+	float : left;
+	margin : 0 20px 0 0;
+	width : 778px;
+}
+div.header .pagination form,
+div.content .pagination form {
+	display : block;
+	float : left;
+}
+div.pagination form input {
+	border-bottom : 1px solid #ddd;
+	color : #f7f7f7;
+	height : 29px;
+	margin : 0 1px;
+	padding : 0;
+	text-align : center;
+	width : 30px;
+}
+div.pagination form:first-child input {
+	margin : 0 5px 0 0;
+}
+div.header .pagination a,
+div.content .pagination a {
+	display : block;
+	float : left;
+	height : 30px;
+	line-height : 30px;
+	margin : 0 1px;
+	text-align : center;
+	text-decoration : none;
+	width : 30px;
+}
+div.header .pagination a:first-child,
+div.content .pagination a:first-child {
+	margin : 0 5px 0 0;
+}
+div.wrapper .header a.add-new {
+	background : #68b828;
+	border : 1px solid #5ca323;
+	display : block;
+	float : right;
+	font-weight : 600;
+	text-decoration : none;
+	width : 120px;
+}
+div.wrapper .header a.add-new:hover {
+	background : #5ca323;
+}
+div.header .add-new p {
+	color : #f7f7f7;
+	line-height : 30px;
+	margin : 0;
+	text-align : center;
+}
+div.header form button.refresh {
+	background : #389af0;
+	border : 1px solid #367fa9;
+	color : #f7f7f7;
+	display : block;
+	float : right;
+	font-weight : 600;
+	line-height : 30px;
+	margin : 0 0 0 10px;
+	text-align : center;
+	text-decoration : none;
+	width : 120px;
+}
+div.header form button.refresh:hover {
+	background : #367fa9;
+}
+#content .wrapper div.filter {
+	margin : 0 0 10px 0;
+}
+div.filter form input,
+div.filter form select {
+	display : block;
+	float : left;
+	margin : 0 10px 10px 0;
+}
+div.filter form input:first-child {
+	width : 40px;
+}
+div.filter form button.filter {
+	background : #7c38bc;
+	border : 1px solid #6f32a8;
+	color : #e9e9e9;
+	display : block;
+	float : left;
+	margin : 0 0 10px 0;
+	width : 100px;
+}
+div.filter form button.filter:hover {
+	background : #6f32a8;
+}
+#content .wrapper div.content {
+	margin : 0 0 20px 0;
+}
+div.wrapper .content table {
+	border-collapse : collapse;
+	width : 1050px;
+}
+div.content table tr:first-child {
+	border-bottom : 2px solid #798699;
+}
+div.content table tr:nth-child(2n+2) {
+	background : rgba(0, 0, 0, 0.1);
+}
+div.content table th p {
+	line-height : 20px;
+	margin : 5px 20px;
+	overflow : hidden;
+	text-align : left;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+div.content table td:last-child {
+	width : 180px;
+}
+div.content table td:last-child a {
+	color : #202020;
+	text-decoration : none;
+}
+div.content table td p {
+	line-height : 30px;
+	margin : 0 20px;
+	overflow : hidden;
+	text-overflow : ellipsis;
+	white-space : nowrap;
+}
+div.content table td:first-child p {
+	text-transform : uppercase;
+}
+div.content table td p.action {
+	background : #f8a31f;
+	border : 1px solid #dd8907;
+	color : #fff;
+	float : left;
+	margin : 5px 10px;
+	text-align : center;
+	width : 68px;
+}
+div.content table td p.action:hover {
+	background : #dd8907;
+}
+table td button.delete {
+	background : #e51400;
+	border : 1px solid #b21000;
+	margin : 5px 10px 5px 0;
+	padding : 0;
+	width : 80px;
+}
+table td button.delete:hover {
+	background : #b21000;
+}
+div.detail form p.title,
+div.detail form p.colon {
+	float : left;
+	font-weight : 600;
+	line-height : 32px;
+	margin : 0 0 10px 0;
+	width : 200px;
+}
+div.detail form p.colon {
+	width : 10px;
+}
+div.detail form input,
+div.detail form select,
+div.detail form textarea {
+	float : left;
+	margin : 0 10px 10px 0;
+	width : 470px;
+}
+div.detail form select {
+	width : 490px;
+}
+div.detail form div.checkbox {
+	float : left;
+	width : 490px;
+}
+form .checkbox div.item {
+	float : left;
+}
+div.checkbox .item input {
+	height : 32px;
+	width : 30px;
+}
+div.detail form p.response {
+	color : #d9534f;
+	float : left;
+	width : 300px;
+}
+div.content .detail h3.page-title {
+	color : #f7f7f7;
+	font-size : 32px;
+	font-weight : 400;
+	margin : 20px 20px 20px 0;
+}
+div.checkbox .item p.checkbox {
+	float : left;
+	line-height : 32px;
+	margin : 0 10px 10px 0;
+}
+div.detail form div.button {
+	text-align : center;
+}
+form .button button.insert,
+form .button button.update {
+	background : #68b828;
+	border : 1px solid #5ca323;
+	color : #e9e9e9;
+	font-weight : 600;
+	width : 150px;
+}
+form .button button.update {
+	background : #ffba00;
+	border : 1px solid #dd8907;
+}
+
+/*========== Footer ==========*/
+#footer {
+	height : 50px;
+}
+#footer p {
+	line-height : 20px;
+	margin : 0 20px;
+	padding : 15px;
+}
+
+/*========== Header ==========*/
+#header {
+	background : #fc4b6c;
+	height : 60px;
+	position : fixed;
+	top : 0;
+	width : 100%;
+	z-index : 100;
+}
+#header div.menu {
+	float : left;
+	height : 20px;
+	line-height : 20px;
+	margin : 20px 60px 20px 20px;
+	width : 20px;
+}
+#header div.logo {
+	float : left;
+	height : 30px;
+	line-height : 30px;
+	margin : 15px 20px 15px 0;
+	width : 280px;
+}
+#header .logo h1 {
+	height : 30px;
+	margin : 0;
+}
+#header .logo h1 img {
+	height : 30px;
+	width : auto;
+}
+#account {
+	border-radius : 5px;
+	cursor : pointer;
+	float : right;
+	height : 30px;
+	line-height : 30px;
+	margin : 15px 20px 15px 330px;
+	text-align : center;
+}
+#account img {
+	border-radius : 50%;
+}
+#header ul.account {
+	background : rgba(56, 154, 240, 0.8);
+	display : none;
+	right : 10px;
+	list-style : none;
+	margin : -10px 0 0 0;
+	opacity : 0;
+	padding : 0;
+	position : absolute;
+	width : 180px;
+	z-index : 100;
+}
+#header .account li {
+	line-height : 30px;
+	padding : 0 25px;
+}
+#header .account li:hover {
+	background : rgba(56, 154, 240, 1);
+}
+ul.account li p {
+	color : #f7f7f7;
+	cursor : pointer;
+	line-height : 30px;
+	margin : 0;
+}
+ul.account li p span {
+	background : #fc4b6c;
+	border-radius : 10px;
+	margin : 0 0 0 10px;
+	padding : 0 5px;
+}
+ul.account li a {
+	color : #f7f7f7;
+	text-decoration : none;
+}
+ul.account li form {
+	height : 30px;
+}
+ul.account li form button {
+	background : none;
+	border : none;
+	line-height : 30px;
+	padding : 0;
+	text-align : left;
+	width : 160px;
+}
+
+/*========== Notification ==========*/
+div.wrapper .popup div.row {
+	border-bottom : 1px solid #798699;
+	padding : 5px 0;
+}
+div.popup .row div.picture {
+	float : left;
+	height : 30px;
+	margin : 0 10px 0 0;
+	width : 30px;
+}
+div.row .picture img {
+	border-radius : 50%;
+}
+div.popup .row p.name {
+	float : left;
+	line-height : 30px;
+	margin : 0 10px 0 0;
+	width : 340px;
+}
+div.popup .row div.action {
+	float : left;
+	width : 170px;
+}
+div.row .action p {
+	color : #f7f7f7;
+	cursor : pointer;
+	float : left;
+	line-height : 30px;
+	margin : 0;
+	text-align : center;
+	width : 80px;
+}
+div.row .action p.confirm {
+	background : #fc4b6c;
+	margin : 0 10px 0 0;
+}
+div.row .action p.reject {
+	background : #f5394a;
+}
+
+/*========== Sidebar ==========*/
+#sidebar {
+	background : #272c33;
+	height : 100%;
+	position : fixed;
+	top : 60px;
+	width : 250px;
+	z-index : 100;
+}
+#sidebar div.profile {
+	padding : 20px 0;
+	text-align : center;
+	text-shadow : 1px 1px 0 rgba(0,0,0,0.2);
+}
+#sidebar .profile div.picture {
+	background : #ccc;
+	border-radius : 50%;
+	cursor : pointer;
+	height : 100px;
+	margin : 0 auto;
+	width : 100px;
+}
+div.profile .picture img {
+	border-radius : 50%;
+}
+#sidebar .profile img:hover {
+	opacity : 0.8;
+}
+#sidebar .profile h2 {
+	color : #f7f7f7;
+	margin : 10px 0 0 0;
+}
+#sidebar ul.menu {
+	list-style : none;
+	margin : 0 0 20px 0;
+	padding : 0;
+}
+#sidebar .menu li {
+	font-weight : 600;
+	height : 40px;
+	line-height : 40px;
+	text-shadow : 1px 1px 0 rgba(0,0,0,0.2);
+}
+#sidebar .menu li a p {
+	color : #f7f7f7;
+	float : left;
+	height : 40px;
+	margin : 0 0 0 20px;
+	width : 205px;
+}
+#sidebar .menu li.child-menu,
+#sidebar .menu div.child-menu {
+	display : none;
+	opacity : 0;
+}
+#sidebar .menu .child-menu a p {
+	margin : 0 0 0 40px;
+}
+#sidebar .menu li p.toggle {
+	float : left;
+	height : 15px;
+	line-height : 15px;
+	margin : 12.5px 10px 12.5px 0;
+	width : 15px;
+}
+#sidebar .menu li span {
+	background : rgba(247,247,247,0.2);
+	background : linear-gradient(to right, rgba(247,247,247,0.2), rgba(247,247,247,0));
+	background : -moz-linear-gradient(left, rgba(247,247,247,0.2), rgba(247,247,247,0));
+	background : -o-linear-gradient(left, rgba(247,247,247,0.2), rgba(247,247,247,0));
+	background : -webkit-linear-gradient(left, rgba(247,247,247,0.2), rgba(247,247,247,0));
+	display : block;
+	filter : progid:DXImageTransform.Microsoft.gradient(startColorstr=#f7f7f7, endColorstr=#008080);
+	height : 40px;
+	margin : -40px 0 0 0;
+	transition-duration : 0.2s;
+	width : 10%;
+}
+#sidebar .menu li:hover span {
+	width : 100%;
+}
+#sidebar .menu div.separator {
+	height : 3px;
+}
+#sidebar .menu div.separator:last-child {
+	height : 40px;
+}
+#sidebar .menu li.child-menu-hidden {
+	display : none !important;
+}
+
+
+@media only screen and (max-width: 359px) {
+	
+	
+	/*==================== Basic ====================*/
+	.mobile {
+		display : block;
+	}
+	
+	/*========== Popup ==========*/
+	#popup div.wrapper {
+		width : 320px;
+	}
+	#popup .wrapper div.popup {
+		padding : 20px 10px;
+	}
+	div.wrapper .popup p.title {
+		width : 140px;
+	}
+	div.wrapper .popup p.detail {
+		width : 150px;
+	}
+	div.wrapper .popup div.checkbox {
+		width : 150px;
+	}
+	
+	/*========== Response ==========*/
+	#response {
+		left : 5%;
+		width : 90%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 51px 0 0 0;
+		min-width : 320px;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 300px;
+	}
+	div.wrapper .header h2.page-title {
+		font-size : 26px;
+		margin : 0 0 20px 0;
+		text-align : center;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 300px;
+	}
+	div.header form button.refresh {
+		margin : 0 34px 0 10px;
+	}
+	div.wrapper .content table {
+		width : 300px;
+	}
+	div.detail form p.title {
+		float : none;
+		width : 300px;
+	}
+	div.detail form p.colon {
+		display : none;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		float : none;
+		margin : 0 0 10px 0;
+		width : 280px;
+	}
+	div.detail form select {
+		width : 300px;
+	}
+	div.detail form div.checkbox {
+		float : none;
+		width : 300px;
+	}
+	div.checkbox .item input {
+		float : left;
+	}
+	div.detail form p.response {
+		float : none;
+	}
+	div.content .detail h3.page-title {
+		font-size : 26px;
+	}
+	
+	/*========== Header ==========*/
+	#header {
+		height : 50px;
+		min-width : 320px;
+	}
+	#header div.menu {
+		margin : 15px 20px;
+	}
+	#header div.logo {
+		height : 20px;
+		line-height : 20px;
+		margin : 15px 20px 15px 0;
+		width : 150px;
+	}
+	#header .logo h1 {
+		height : 20px;
+	}
+	#header .logo h1 img {
+		margin : 1px 0 0 0;
+	}
+	#header div.search {
+		background : none;
+		border : none;
+		height : 20px;
+		margin : 15px 0;
+		transition-duration : 0s;
+		width : 20px;
+	}
+	#header .search form {
+		display : none;
+	}
+	#header .search form.mobile {
+		display : block;
+		height : 20px;
+		width : 20px;
+	}
+	#header .search input {
+		background : #fff;
+		border : 1px solid #ddd;
+		display : none;
+		float : right;
+		opacity : 0;
+		width : 180px;
+	}
+	#header .search button {
+		height : 20px;
+		line-height : 20px;
+		margin : 0 0 20px 0;
+		padding : 0;
+		width : 20px;
+	}
+	#account {
+		margin : 10px 20px;
+	}
+	#header ul.option {
+		margin : -5px 0 0 0;
+	}
+	
+	/*========== Footer ==========*/
+	#footer {
+		min-width : 320px;
+	}
+	#footer p {
+		text-align : center;
+	}
+	
+	/*========== Friend ==========*/
+	#friend h3 {
+		line-height : 35px;
+		margin : 0 0 0 110px;
+		width : 150px;
+	}
+	
+	/*========== Sidebar ==========*/
+	#sidebar {
+		top : 51px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	
+	/*==================== Basic ====================*/
+	.mobile {
+		display : block;
+	}
+	
+	/*========== Popup ==========*/
+	#popup div.wrapper {
+		width : 360px;
+	}
+	#popup .wrapper div.popup {
+		padding : 20px 10px;
+	}
+	div.wrapper .popup p.title {
+		width : 140px;
+	}
+	div.wrapper .popup p.detail {
+		width : 190px;
+	}
+	div.wrapper .popup div.checkbox {
+		width : 190px;
+	}
+	
+	/*========== Response ==========*/
+	#response {
+		left : 5%;
+		width : 90%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 51px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 340px;
+	}
+	div.wrapper .header h2.page-title {
+		font-size : 26px;
+		margin : 0 0 20px 0;
+		text-align : center;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 340px;
+	}
+	div.header form button.refresh {
+		margin : 0 44px 0 10px;
+	}
+	div.wrapper .content table {
+		width : 340px;
+	}
+	div.detail form p.title {
+		float : none;
+		width : 340px;
+	}
+	div.detail form p.colon {
+		display : none;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		float : none;
+		margin : 0 0 10px 0;
+		width : 320px;
+	}
+	div.detail form select {
+		width : 340px;
+	}
+	div.detail form div.checkbox {
+		float : none;
+		width : 340px;
+	}
+	div.checkbox .item input {
+		float : left;
+	}
+	div.detail form p.response {
+		float : none;
+	}
+	div.content .detail h3.page-title {
+		font-size : 26px;
+	}
+	
+	/*========== Header ==========*/
+	#header {
+		height : 50px;
+	}
+	#header div.menu {
+		margin : 15px 20px;
+	}
+	#header div.logo {
+		height : 25px;
+		margin : 12.5px 20px 12.5px 0;
+		width : 190px;
+	}
+	#header .logo h1 {
+		height : 25px;
+	}
+	#header .logo h1 img {
+		margin : 1px 0 0 0;
+	}
+	#header div.search {
+		background : none;
+		border : none;
+		height : 20px;
+		margin : 15px 0;
+		transition-duration : 0s;
+		width : 20px;
+	}
+	#header .search form {
+		display : none;
+	}
+	#header .search form.mobile {
+		display : block;
+		height : 20px;
+		width : 20px;
+	}
+	#header .search input {
+		background : #fff;
+		border : 1px solid #ddd;
+		display : none;
+		float : right;
+		opacity : 0;
+		width : 220px;
+	}
+	#header .search button {
+		height : 20px;
+		line-height : 20px;
+		margin : 0 0 20px 0;
+		padding : 0;
+		width : 20px;
+	}
+	#account {
+		margin : 10px 20px;
+	}
+	#header ul.option {
+		margin : -5px 0 0 0;
+	}
+	
+	/*========== Footer ==========*/
+	#footer p {
+		text-align : center;
+	}
+	
+	/*========== Friend ==========*/
+	#friend h3 {
+		line-height : 35px;
+		margin : 0 0 0 110px;
+		width : 150px;
+	}
+	
+	/*========== Sidebar ==========*/
+	#sidebar {
+		top : 51px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+	
+	
+	/*==================== Basic ====================*/
+	.mobile {
+		display : block;
+	}
+	
+	/*========== Popup ==========*/
+	#popup div.wrapper {
+		width : 440px;
+	}
+	div.wrapper .popup p.title {
+		width : 190px;
+	}
+	div.wrapper .popup p.detail {
+		width : 200px;
+	}
+	div.wrapper .popup div.checkbox {
+		width : 200px;
+	}
+	
+	/*========== Response ==========*/
+	#response {
+		left : 10%;
+		width : 80%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 51px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 440px;
+	}
+	div.wrapper .header h2.page-title {
+		margin : 0 0 20px 0;
+		text-align : center;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 440px;
+	}
+	div.header form button.refresh {
+		margin : 0 94px 0 10px;
+	}
+	div.wrapper .content table {
+		width : 440px;
+	}
+	div.detail form p.title {
+		float : none;
+		width : 440px;
+	}
+	div.detail form p.colon {
+		display : none;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		float : none;
+		margin : 0 0 10px 0;
+		width : 420px;
+	}
+	div.detail form select {
+		width : 440px;
+	}
+	div.detail form div.checkbox {
+		float : none;
+		width : 440px;
+	}
+	div.checkbox .item input {
+		float : left;
+	}
+	div.detail form p.response {
+		float : none;
+	}
+	
+	/*========== Header ==========*/
+	#header {
+		height : 50px;
+	}
+	#header div.menu {
+		margin : 15px 20px;
+	}
+	#header div.logo {
+		height : 25px;
+		margin : 12.5px 20px 12.5px 0;
+		width : 190px;
+	}
+	#header .logo h1 {
+		height : 25px;
+	}
+	#header .logo h1 img {
+		margin : 1px 0 0 0;
+	}
+	#header div.search {
+		background : none;
+		border : none;
+		height : 20px;
+		margin : 15px 0;
+		transition-duration : 0s;
+		width : 20px;
+	}
+	#header .search form {
+		display : none;
+	}
+	#header .search form.mobile {
+		display : block;
+		height : 20px;
+		width : 20px;
+	}
+	#header .search input {
+		background : #fff;
+		border : 1px solid #ddd;
+		display : none;
+		float : right;
+		opacity : 0;
+		width : 220px;
+	}
+	#header .search button {
+		height : 20px;
+		line-height : 20px;
+		margin : 0 0 20px 0;
+		padding : 0;
+		width : 20px;
+	}
+	#account {
+		margin : 10px 20px;
+	}
+	#header ul.option {
+		margin : -5px 0 0 0;
+	}
+	
+	/*========== Footer ==========*/
+	#footer p {
+		text-align : center;
+	}
+	
+	/*========== Friend ==========*/
+	#friend h3 {
+		line-height : 35px;
+		margin : 0 0 0 110px;
+		width : 150px;
+	}
+	
+	/*========== Sidebar ==========*/
+	#sidebar {
+		top : 51px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 639px) {
+	
+	
+	/*==================== Basic ====================*/
+	.mobile {
+		display : block;
+	}
+	
+	/*========== Popup ==========*/
+	#popup div.wrapper {
+		width : 560px;
+	}
+	div.wrapper .popup p.detail {
+		width : 310px;
+	}
+	div.wrapper .popup div.checkbox {
+		width : 310px;
+	}
+	
+	/*========== Response ==========*/
+	#response {
+		left : 20%;
+		width : 60%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 51px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 560px;
+	}
+	div.wrapper .header h2.page-title {
+		margin : 0 0 20px 0;
+		text-align : center;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 560px;
+	}
+	div.header form button.refresh {
+		margin : 0 154px 0 10px;
+	}
+	div.wrapper .content table {
+		width : 560px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		margin : 0 0 10px 0;
+		width : 330px;
+	}
+	div.detail form select {
+		width : 350px;
+	}
+	div.detail form div.checkbox {
+		width : 350px;
+	}
+	div.detail form p.response {
+		float : none;
+	}
+	
+	/*========== Header ==========*/
+	#header {
+		height : 50px;
+	}
+	#header div.menu {
+		margin : 15px 20px;
+	}
+	#header div.logo {
+		height : 25px;
+		margin : 12.5px 20px 12.5px 0;
+		width : 190px;
+	}
+	#header .logo h1 {
+		height : 25px;
+	}
+	#header .logo h1 img {
+		margin : 1px 0 0 0;
+	}
+	#header div.search {
+		background : none;
+		border : none;
+		height : 20px;
+		margin : 15px 0;
+		transition-duration : 0s;
+		width : 20px;
+	}
+	#header .search form {
+		display : none;
+	}
+	#header .search form.mobile {
+		display : block;
+		height : 20px;
+		width : 20px;
+	}
+	#header .search input {
+		background : #fff;
+		border : 1px solid #ddd;
+		display : none;
+		float : right;
+		opacity : 0;
+		width : 220px;
+	}
+	#header .search button {
+		height : 20px;
+		line-height : 20px;
+		margin : 0 0 20px 0;
+		padding : 0;
+		width : 20px;
+	}
+	#account {
+		margin : 10px 20px;
+	}
+	#header ul.option {
+		margin : -5px 0 0 0;
+	}
+	
+	/*========== Footer ==========*/
+	#footer p {
+		text-align : center;
+	}
+	
+	/*========== Friend ==========*/
+	#friend h3 {
+		line-height : 35px;
+		margin : 0 0 0 110px;
+		width : 150px;
+	}
+	
+	/*========== Sidebar ==========*/
+	#sidebar {
+		top : 51px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 767px) {
+	
+	
+	/*==================== Basic ====================*/
+	.mobile {
+		display : block;
+	}
+	
+	/*========== Popup ==========*/
+	#popup div.wrapper {
+		width : 600px;
+	}
+	div.wrapper .popup p.detail {
+		width : 350px;
+	}
+	div.wrapper .popup div.checkbox {
+		width : 350px;
+	}
+	
+	/*========== Response ==========*/
+	#response {
+		left : 20%;
+		width : 60%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 51px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 600px;
+	}
+	div.wrapper .header h2.page-title {
+		margin : 0 0 20px 0;
+		text-align : center;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		float : none;
+		margin : 0 0 20px 0;
+		width : 600px;
+	}
+	div.header form button.refresh {
+		margin : 0 174px 0 10px;
+	}
+	div.wrapper .content table {
+		width : 600px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		margin : 0 0 10px 0;
+		width : 370px;
+	}
+	div.detail form select {
+		width : 390px;
+	}
+	div.detail form div.checkbox {
+		width : 390px;
+	}
+	div.detail form p.response {
+		float : none;
+	}
+	
+	/*========== Header ==========*/
+	#header {
+		height : 50px;
+	}
+	#header div.menu {
+		margin : 15px 20px;
+	}
+	#header div.logo {
+		height : 25px;
+		margin : 12.5px 20px 12.5px 0;
+		width : 190px;
+	}
+	#header .logo h1 {
+		height : 25px;
+	}
+	#header .logo h1 img {
+		margin : 1px 0 0 0;
+	}
+	#header div.search {
+		background : none;
+		border : none;
+		height : 20px;
+		margin : 15px 0;
+		transition-duration : 0s;
+		width : 20px;
+	}
+	#header .search form {
+		display : none;
+	}
+	#header .search form.mobile {
+		display : block;
+		height : 20px;
+		width : 20px;
+	}
+	#header .search input {
+		background : #fff;
+		border : 1px solid #ddd;
+		display : none;
+		float : right;
+		opacity : 0;
+		width : 220px;
+	}
+	#header .search button {
+		height : 20px;
+		line-height : 20px;
+		margin : 0 0 20px 0;
+		padding : 0;
+		width : 20px;
+	}
+	#account {
+		margin : 10px 20px;
+	}
+	#header ul.option {
+		margin : -5px 0 0 0;
+	}
+	
+	/*========== Footer ==========*/
+	#footer p {
+		text-align : center;
+	}
+	
+	/*========== Friend ==========*/
+	#friend h3 {
+		line-height : 35px;
+		margin : 0 0 0 110px;
+		width : 150px;
+	}
+	
+	/*========== Sidebar ==========*/
+	#sidebar {
+		top : 51px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 799px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Response ==========*/
+	#response {
+		left : 25%;
+		width : 50%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 61px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 740px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 468px;
+	}
+	div.wrapper .content table {
+		width : 740px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 280px;
+	}
+	div.detail form select {
+		width : 300px;
+	}
+	div.detail form div.checkbox {
+		width : 300px;
+	}
+	div.detail form p.response {
+		width : 220px;
+	}
+	
+	/*========== Header ==========*/
+	#header div.menu {
+		margin : 20px;
+	}
+	#account {
+		margin : 15px 20px;
+	}
+	#header div.search {
+		width : 336px;
+	}
+	#header .search input {
+		width : 272px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 899px) {
+	
+	
+	/*==================== Basic ====================*/
+	
+	/*========== Response ==========*/
+	#response {
+		left : 30%;
+		width : 40%;
+	}
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 61px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 780px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 508px;
+	}
+	div.wrapper .content table {
+		width : 780px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 300px;
+	}
+	div.detail form select {
+		width : 320px;
+	}
+	div.detail form div.checkbox {
+		width : 320px;
+	}
+	div.detail form p.response {
+		width : 240px;
+	}
+	
+	/*========== Header ==========*/
+	#header div.menu {
+		margin : 20px;
+	}
+	#account {
+		margin : 15px 20px;
+	}
+	#header div.search {
+		width : 368px;
+	}
+	#header .search input {
+		width : 304px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 979px) {
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 61px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 880px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 608px;
+	}
+	div.wrapper .content table {
+		width : 880px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 390px;
+	}
+	div.detail form select {
+		width : 410px;
+	}
+	div.detail form div.checkbox {
+		width : 410px;
+	}
+	div.detail form p.response {
+		width : 250px;
+	}
+	
+	/*========== Header ==========*/
+	#header div.menu {
+		margin : 20px;
+	}
+	#account {
+		margin : 15px 20px;
+	}
+	#header div.search {
+		width : 468px;
+	}
+	#header .search input {
+		width : 404px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 61px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 940px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 668px;
+	}
+	div.wrapper .content table {
+		width : 940px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 400px;
+	}
+	div.detail form select {
+		width : 420px;
+	}
+	div.detail form div.checkbox {
+		width : 420px;
+	}
+	
+	/*========== Header ==========*/
+	#header div.menu {
+		margin : 20px;
+	}
+	#account {
+		margin : 15px 20px 15px 52px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+	
+	
+	/*==================== Content ====================*/
+	#content {
+		margin : 61px 0 0 0;
+		width : 100%;
+	}
+	#content div.wrapper {
+		width : 960px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 688px;
+	}
+	div.wrapper .content table {
+		width : 960px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 420px;
+	}
+	div.detail form select {
+		width : 440px;
+	}
+	div.detail form div.checkbox {
+		width : 440px;
+	}
+	
+	/*========== Header ==========*/
+	#header div.menu {
+		margin : 20px;
+	}
+	#account {
+		margin : 15px 20px 15px 72px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1365px) {
+	
+	
+	/*==================== Content ====================*/
+	#content div.wrapper {
+		width : 1000px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 728px;
+	}
+	div.wrapper .content table {
+		width : 1000px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 460px;
+	}
+	div.detail form select {
+		width : 480px;
+	}
+	div.detail form div.checkbox {
+		width : 480px;
+	}
+	
+	/*========== Header ==========*/
+	#account {
+		margin : 15px 20px 15px 220px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1366px) and (max-width: 1599px) {
+	
+	
+	/* Not set yet */
+	
+	
+}
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+	
+	
+	/*==================== Content ====================*/
+	#content div.wrapper {
+		width : 1270px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 998px;
+	}
+	div.wrapper .content table {
+		width : 1270px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 730px;
+	}
+	div.detail form select {
+		width : 750px;
+	}
+	div.detail form div.checkbox {
+		width : 750px;
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 1920px) {
+	
+	
+	/*==================== Content ====================*/
+	#content div.wrapper {
+		width : 1620px;
+	}
+	div.wrapper .header div.pagination,
+	div.wrapper .content div.pagination {
+		width : 1348px;
+	}
+	div.wrapper .content table {
+		width : 1620px;
+	}
+	div.detail form input,
+	div.detail form select,
+	div.detail form textarea {
+		width : 1080px;
+	}
+	div.detail form select {
+		width : 1100px;
+	}
+	div.detail form div.checkbox {
+		width : 1100px;
+	}
+	
+	/*========== Header ==========*/
+	#account {
+		margin : 15px 20px 15px 500px;
+	}
+	
+	
+}

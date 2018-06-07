@@ -1,0 +1,15 @@
+/*==================== Content ====================*/
+div.detail form p.title,
+div.detail form p.colon,
+div.detail form input,
+div.detail form select,
+div.detail form textarea,
+div.detail form p.response,
+div.detail form div {
+	display : none;
+}
+div.detail form p.type,
+div.detail form select.type,
+div.detail form div.type {
+	display : block;
+}

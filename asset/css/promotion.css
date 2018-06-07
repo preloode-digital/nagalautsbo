@@ -1,0 +1,33 @@
+/*==================== Content ====================*/
+#content div.wrapper {
+	background : #300002;
+	padding : 50px 0 200px 0;
+}
+#content .wrapper div.banner {
+	cursor : pointer;
+	margin : 0 auto;
+	width : 900px;
+}
+div.wrapper .banner img {
+	display : block;
+}
+#content .wrapper div.description {
+	background : #fff;
+	color : #000;
+	display : none;
+	margin : 0 auto;
+	opacity : 0;
+	padding : 20px;
+	width : 860px;
+}
+div.wrapper .description h2 {
+	border-bottom : 1px solid #000;
+	margin : 0 0 20px 0;
+	text-transform : uppercase;
+}
+div.wrapper .description p {
+	text-align : left;
+}
+#content .wrapper div.separator {
+	height : 20px;
+}
